@@ -1,63 +1,28 @@
-# CodeIgniter 4 Application Starter
+# LandingPage-EPTSP
 
-## What is CodeIgniter?
+Project ini merupakan landing page sederhana untuk PTSP (khususnya Pengadilan). Tujuan landing page ini adalah untuk memudahkan masyarakat untuk mengetahui layanan apa saja (khususnya layanan elektronik) yang dimiliki satker. 
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Project ini dibuat menggunakan framework _Codeigniter 4_, dan untuk viewnya menggunakan free template dari BootstrapMade
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Feature
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Selain fitur-fitur dasar, landing page ini juga menggunakan fitur text to speech dengen SpeechSynthesisAPI Javascript. Untuk fitur livechat nya menggunakan widget dari [tawk.to](https://www.tawk.to/). Silahkan daftar pada website tersebut, dan replace script widget tawk.to yang ada sebelum tutup body. 
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## How to use?
 
-## Installation & updates
+1. Download Codeigniter 4 [disini](https://codeigniter.com/download).
+2. Download repo ini kemudian timpa folder codeigniter4 yang telah didownload tadi dengan repo ini
+3. Copy file env dan rename menjadi .env
+4. Ubah base url menjadi
+   ```html
+    http://domain_anda.go.id/nama_folder_root/public/
+    ```
+5. Untuk development, silahkan copykan folder project ke local web server(htdocs (XAMPP), www(laragon), etc), dan rubah environment serta baseurl pada file .env menjadi
+   ```html
+   CI_ENVIRONMENT = development
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+   app.baseURL = 'http://localhost/eptsp/public/'
+   ```
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+Feel free to contact me :
+**Telegram** : @Okawiadnyana
