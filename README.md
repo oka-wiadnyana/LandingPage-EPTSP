@@ -25,4 +25,5 @@ Selain fitur-fitur dasar, landing page ini juga menggunakan fitur text to speech
    ```
 
 Feel free to contact me :
+
 **Telegram** : @Okawiadnyana
