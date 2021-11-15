@@ -2,7 +2,9 @@
 
 Project ini merupakan landing page sederhana untuk PTSP (khususnya Pengadilan). Tujuan landing page ini adalah untuk memudahkan masyarakat untuk mengetahui layanan apa saja (khususnya layanan elektronik) yang dimiliki satker. 
 
-Project ini dibuat menggunakan framework _Codeigniter 4_, dan untuk viewnya menggunakan free template dari BootstrapMade
+Project ini dibuat menggunakan framework _Codeigniter 4_, dan untuk viewnya menggunakan free template dari BootstrapMade.
+
+Demo : http://e-ptsp.pnbangli.ozavo.my.id
 
 ## Feature
 
