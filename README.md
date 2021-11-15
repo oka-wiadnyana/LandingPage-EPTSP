@@ -10,8 +10,9 @@ Selain fitur-fitur dasar, landing page ini juga menggunakan fitur text to speech
 
 ## How to use?
 
-1. Download Codeigniter 4 [disini](https://codeigniter.com/download).
-2. Download repo ini kemudian timpa folder codeigniter4 yang telah didownload tadi dengan repo ini
+1. Instal composer [disini](https://getcomposer.org/download/). (Skip langkah ini apabila pada system operasi sudah terinstall composer)
+2. Download repo ini kemudian buka terminal dan arahkan ke repo hasil download dan ketikkan
+   >composer install
 3. Copy file env dan rename menjadi .env
 4. Ubah base url menjadi
    ```html
