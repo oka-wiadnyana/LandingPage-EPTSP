@@ -23,6 +23,9 @@ Selain fitur-fitur dasar, landing page ini juga menggunakan fitur text to speech
 
    app.baseURL = 'http://localhost/eptsp/public/'
    ```
+6. Project ini Non CMS, oleh karena itu silahkan melakukan kustomisasi pada script di folder app>Views
+
+
 
 Feel free to contact me :
 
